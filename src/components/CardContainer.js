@@ -27,7 +27,7 @@ const CardContainer = () => {
           <input
             type="text"
             placeholder="Filter by title,companies,country..."
-            className="text-white py-3 outline-none dark:bg-zinc-800"
+            className="text-white py-3  overflow-hidden outline-none dark:bg-zinc-800 dark:text-white"
             onChange={handleSearch}
           />
         </div>
