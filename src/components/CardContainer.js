@@ -22,7 +22,7 @@ const CardContainer = () => {
     <div >
       {/*SEARCH BAR*/}
       <div className="mx-auto flex w-3/5 justify-between rounded-md bg-white py-2 px-3 -translate-y-9 dark:bg-zinc-800">
-        <div className="flex space-x-3 items-center ">
+        <div className="flex space-x-2 items-center ">
           <img src={search} className="h-5"></img>
           <input
             type="text"
